@@ -1,0 +1,119 @@
+body{
+  background-color: rgb(39, 39, 39);
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  height: 93vh;
+  margin-top: 4vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.visible{
+  display: none;
+}
+
+.message{
+  font-size: large;
+  font-weight: 700;
+  margin: 2vh;
+  display: none;
+}
+
+.container{
+  height: 85vh;
+  width: 25vw;
+  border-radius: 10px;
+  background-color: rgba(106, 0, 171, 0.2);
+  padding: 20px;
+  padding-top: 30px;
+  backdrop-filter:  blur(20px);
+}
+
+.input{
+  display: flex;;
+}
+
+.input img{
+  height: 5vh;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+#cityInput{
+  height: 6vh;
+  width: 20vw;
+  border-radius: 8px;
+  border: 2px solid rgb(151, 0, 246);
+  padding-left: 8px;
+  background-color: rgb(106, 0, 171);
+  font-size: large;
+  color:rgb(161, 229, 229);
+  font-weight: 600;
+}
+
+input::placeholder{
+  color:rgb(161, 229, 229)
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 3vh;
+
+  img{
+    height: 15vh;
+  }
+
+  h1{
+    font-size: 3 rem;
+  }
+}
+
+.cityN{
+  margin-top: -3vh;
+}
+
+.details{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.wind{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  img{
+    height: 10vh;
+  }
+}
+
+.humidity{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  img{
+    height: 10vh;
+  }
+}
+
+.temperature{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  img{
+    height: 10vh;
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="input">
+      <input type="text" id="cityInput" class="city" placeholder="Enter city name" spellcheck="false"/>
+      <img src="images/search.png" class="search">
+    </div>
+    <div class="message">
+      Invalid City Name
+    </div>
+    <div class="visible">
+      <div class="weather">
+        <img src="images/cloudy.png" class="image">
+        <h1 class="weatherType">Weather</h1>
+        <h2 class="cityN">Patna</h2>
+      </div>
+      <div class="details">
+        <div class="wind">
+          <img src="images/wind.png">
+          <h4>Wind Speed</h4>
+          <h2 class="windSpeed">22</h2>
+        </div>
+        <div class="humidity">
+          <img src="images/humidity.png">
+          <h4>Humidity</h4>
+          <h2 class="humidityVal">22</h2>
+        </div>
+        <div class="temperature">
+          <img src="images/temperature.png">
+          <h4>Temperature</h4>
+          <h2 class="temp">21°C</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

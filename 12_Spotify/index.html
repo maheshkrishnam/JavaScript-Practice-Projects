@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+      <div class="icon"><img src="spotify.png" alt="" height="30px" style="filter:saturate(.2);"></div>
+      <div class="name">Spotify</div>
+      <div class="home">Home</div>
+      <div class="about">About</div>
+    </nav>
+    <div class="body">
+      <div class="bg">
+        <div class="songList">
+          <div class="songTitle"><img src="song1.jpeg" alt="" class="song"><span class="songname">Song</span><span class="time">3:45<img src="play.png" alt="" width="25px" id = '0' class = 'playsong'></div></span>
+          <div class="songTitle"><img src="song1.jpeg" alt="" class="song"><span class="songname">Song</span><span class="time">4:10<img src="play.png" alt="" width="25px" id = '1' class = 'playsong'></div></span>
+          <div class="songTitle"><img src="song1.jpeg" alt="" class="song"><span class="songname">Song</span><span class="time">4:39<img src="play.png" alt="" width="25px" id = '2' class = 'playsong'></div></span>
+        </div>
+        <div class="songExtra"></div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="scroller">
+        <input type="range" name="range" id="range" min="0" max="100" value = '0' class="progressBar" style="accent-color: white;">
+      </div>
+      <div class="buttons">
+        <span class="gifMerge"><h4 class="songName" style="margin-right: 5vw;">Vaste</h4> <img src="music.gif" alt="" class="gif" height="40px"></span>
+        <img src="back.png" alt="" width="30px" class="back">
+        <img src="play.png" alt="" width="40px" class="play">
+        <img src="next.png" alt="" width="30px" class="next">
+      </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>

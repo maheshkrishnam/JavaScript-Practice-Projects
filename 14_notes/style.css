@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgb(0, 162, 255), blue);
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 15%;
+  color: white;
+}
+
+.container h1 img{
+  height: 5vh;
+}
+
+.container button{
+  color: rgb(0, 123, 255);
+  font-size: medium;
+  font-weight: 600;
+  padding: 4px;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+
+.container button img{
+  height: 4vh;
+}
+
+.inputBox{
+  outline: none;
+  min-height: 150px;
+  width: 100%;
+  max-width: 500px;
+  background-color: rgb(198, 252, 252);
+  color: rgb(0, 123, 255);
+  padding: 20px;
+  margin: 20px;
+  margin-left: 0;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  font-weight: 500;
+}
+
+.delete{
+  height: 4vh;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}

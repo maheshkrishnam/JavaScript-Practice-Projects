@@ -1,0 +1,80 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(210deg, rgb(0, 94, 112), rgb(0, 83, 172), rgb(0, 0, 115));
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+  width: 40vw;
+  height: 50vh;
+  background-color: rgba(90, 189, 163, 0.4);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 10vh;
+}
+
+.h1{
+  font-size: x-large;
+  font-weight: 600;
+  color: white;
+
+  span{
+    color: rgb(12, 231, 0);
+    text-decoration: underline;
+  }
+}
+
+.pass{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.input{
+  height: 6vh;
+  width: 70%;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  color: rgb(5, 92, 0);
+  font-weight: 600;
+}
+
+.copy{
+  height: 6vh;
+  border-radius: 5px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
+  color: rgb(90, 189, 163);
+  margin-left: 10px;
+}
+.copy:active{
+  background-color: rgb(151, 149, 149);
+  color: rgb(126, 248, 215);
+}
+
+input:focus{
+  outline: none;
+  font-size: medium;
+  font-weight: 600;
+  color: rgb(90, 189, 163);
+}
+
+.button{
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 4vh;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(82, 82, 240);
+  color: rgb(90, 189, 163);
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}

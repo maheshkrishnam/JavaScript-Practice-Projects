@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  color: white;
+  background-color: rgb(0, 61, 78);
+  padding: 0;
+  margin: 0;font-family: "Poppins", sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+}
+
+.container{
+  border: 2px solid rgb(255, 255, 255);
+  padding: 40px;
+  border-radius: 5px;
+  width: 40vw;
+  position: relative;
+
+  h1{
+    color: rgb(255, 208, 150);
+    border-bottom: 2px solid white;
+    padding-bottom:15px;
+    margin-bottom: 40px;
+  }
+
+  h2{
+    padding-bottom: 15px;
+  }
+
+  h3{
+    color: antiquewhite;
+    padding-bottom: 5px;
+  }
+}
+
+.ans{
+  border: 1px solid beige;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: left;
+  cursor: pointer;
+  background-color: rgb(0, 84, 129);
+  color: rgb(215, 237, 255);
+}
+
+.ans:hover{
+  background-color: rgb(1, 166, 255);
+  color: aliceblue;
+}
+
+.next{
+  background-color: rgb(0, 98, 98);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  width: auto;
+  font-weight: 600;
+  font-size: medium;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.next:hover{
+  background-color: rgb(0, 152, 152);
+  color: rgb(183, 183, 183);
+}
+
+.true{
+  border: 1px solid beige;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: left;
+  cursor: pointer;
+  color: rgb(215, 237, 255);
+  background-color: greenyellow;
+}
+
+.false{
+  border: 1px solid beige;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: left;
+  cursor: pointer;
+  color: rgb(215, 237, 255);
+  background-color: rgb(251, 56, 56);
+}
+
+.end{
+  display: flex;
+  align-items: center;
+
+  h3{
+    margin-left: 20px;
+  }
+}

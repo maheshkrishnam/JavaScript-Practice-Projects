@@ -1,0 +1,72 @@
+.clockContainer{
+  height: 40vw;
+  width: 40vw;
+  background-image: url("clock.png");
+  background-size: cover;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+
+.hour, .minute, .second{
+  height: 10vw;
+  width: 1vw;
+  background-color: #fff;
+  position: absolute;
+  top: 10.2vw;
+  left: 19.7vw;
+  transform-origin: bottom;
+  background-color: red;
+}
+
+.hour{
+  height: 10vw;
+  width: 1vw;
+  top: 10.2vw;
+  left: 19.7vw;
+}
+
+.minute{
+  height: 13vw;
+  width: 0.7vw;
+  top: 7.2vw;
+  left: 19.85vw;
+}
+
+.second{
+  height: 15vw;
+  width: 0.3vw;
+  top: 5.2vw;
+  left: 20.04vw;
+}
+
+.centre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 2vw;
+  width: 2vw;
+  position: absolute;
+  left: 19.2vw;
+  top: 19.1vw;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: silver;
+  height: 1vw;
+  width: 1vw;
+  position: absolute;
+  left: 19.7vw;
+  top: 19.6vw;
+  border-radius: 50%;
+  z-index: 100;
+}

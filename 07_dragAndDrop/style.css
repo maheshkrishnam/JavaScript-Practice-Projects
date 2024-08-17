@@ -1,0 +1,33 @@
+*{
+  background-color: rgb(2, 2, 45);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.right, .left{
+  height: 50vh;
+  width: 18vw;
+  border: 2px dashed white;
+  border-radius: 6px;
+  margin: 20px;
+  padding: 30px;
+}
+
+.element{
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: antiquewhite;
+  border-radius: 6px;
+  margin: 20px;
+  color: rgb(44, 44, 44);
+  cursor: grab;
+  text-align: center;
+}
