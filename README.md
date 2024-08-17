@@ -1,0 +1,16 @@
+## This repo contains some of my JavaScript practice projects
+- 01_weatherAPI
+- 02_todo
+- 03_quizApp
+- 04_passwordGenerator
+- 05_Clock
+- 06_DragonGame
+- 07_dragAndDrop
+- 08_searchImageWithKeyword
+- 09_textToSpeech
+- 10_Friend_request
+- 11_custom_cursor
+- 12_Spotify
+- 13_TicTacToe
+- 14_notes
+- 15_imageScroller
